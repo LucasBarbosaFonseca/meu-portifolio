@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucas - Desenvolvedor Web</title>
+	<link rel="stylesheet" type="text/css" href="_css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="_css/boot.css">
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<script type="text/javascript" src="_javascript/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="_javascript/jquery.cycle.all.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slides ul').cycle({
+				fx: 'fade',
+				speed: 2000,
+				timeout: 3000
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<main class="main_content container">
+	
+	<header class="header">
+
+		<div class="fundo"></div>
+
+		<section class="slides">
+			<ul>
+				<li>
+					<article class="slide_item one">
+						<picture>
+							<source media="(min-width: 1600px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=2000&h=540">
+							<source media="(min-width: 1366px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=1600&h=540">
+							<source media="(min-width: 1280px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=1366&h=540">
+							<source media="(min-width: 1080px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=1280&h=540">
+							<source media="(min-width: 960px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=1080&h=540">
+							<source media="(min-width: 768px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=960&h=540">
+							<source media="(min-width: 480px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=760h=400">
+							<source media="(min-width: 360px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=480&h=350">
+							<source media="(min-width: 1px)" srcset="tim.php?src=_imagens/fundo-home1-menor.jpg&w=360&h=300">
+							<img src="_imagens/fundo-home1-menor.jpg">
+						</picture>
+					</article>
+				</li>
+				<li>
+					<article class="slide_item two">
+						<picture>
+							<source media="(min-width: 1600px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=2000&h=540">
+							<source media="(min-width: 1366px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=1600&h=540">
+							<source media="(min-width: 1280px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=1366&h=540">
+							<source media="(min-width: 1080px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=1280&h=540">
+							<source media="(min-width: 960px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=1080&h=540">
+							<source media="(min-width: 768px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=960&h=540">
+							<source media="(min-width: 480px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=760&h=510">
+							<source media="(min-width: 360px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=480&h=350">
+							<source media="(min-width: 1px)" srcset="tim.php?src=_imagens/fundo-home2-menor.jpg&w=360&h=300">
+							<img src="_imagens/fundo-home2-menor.jpg">
+						</picture>
+					</article>
+				</li>
+				<li>
+					<article class="slide_item three">
+						<picture>
+							<source media="(min-width: 1600px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=2000&h=540">
+							<source media="(min-width: 1366px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=1800&h=540">
+							<source media="(min-width: 1280px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=1366&h=540">
+							<source media="(min-width: 1080px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=1280&h=540">
+							<source media="(min-width: 960px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=1080&h=540">
+							<source media="(min-width: 768px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=960&h=540">
+							<source media="(min-width: 480px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=760&h=510">
+							<source media="(min-width: 360px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=480&h=350">
+							<source media="(min-width: 1px)" srcset="tim.php?src=_imagens/fundo-home3-menor.jpg&w=360&h=300">
+							<img src="_imagens/fundo-home3-menor.jpg">						
+						</picture>
+					</article>
+				</li>
+			</ul>
+		</section>
+		
+		<img class="logo" src="_imagens/logo.png">
+	</header>
+
+</main>
+
+</body>
+</html>
